@@ -57,6 +57,7 @@ public class Loja implements Serializable {
 	@LastModifiedBy
 	private String lastModifiedUser;
 	
+	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
 	@LastModifiedDate
 	private Instant dataAtualizacao;
 

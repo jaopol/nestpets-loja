@@ -16,18 +16,18 @@ public class Response<T> {
 
 	private T data;
 
-	private List<String> errors;
+	private List<String> erros;
 
 	public Response() {
 
 	}
 
-	public List<String> getErrors() {
-		if (this.errors == null) {
-			this.errors = new ArrayList<String>();
+	public List<String> getErros() {
+		if (this.erros == null) {
+			this.erros = new ArrayList<String>();
 		}
 
-		return this.errors;
+		return this.erros;
 	}
 
 }
